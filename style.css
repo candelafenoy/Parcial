@@ -1,0 +1,122 @@
+body{
+    background-color: #EAEAEE;
+}
+
+h1{
+    font-size: 200px;
+    margin: 10px 40px;
+}
+
+
+.bg-personalizado{
+    height: 85vh;
+    background-image: url(./img/banner8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.inicio{
+    margin: 20px 0px;
+    background-color: #8EB6DC;
+    padding: 20px 30px;
+}
+
+h2{
+    font-size: medium;
+    justify-content: left;
+    margin: 10px 0px;
+   
+}
+
+
+#carouselExampleAutoplaying {
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.footer{
+    display: flex;
+    background-color: #1470AF;
+    padding: 20px 0;
+    align-items: center; /* centra vertical */
+    justify-content: center;
+}
+
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+
+.contenedor{
+    display:flex;
+    gap: 20px;
+    margin: 10px;
+    align-items: start;
+}
+
+.sobreMi{
+    background-color: #8EB6DC;
+    flex-direction: column;
+    width: 50%;
+    height: 80vh;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sobreMi h2, p, .programas h2{
+    margin: 20px;
+}
+
+.programas{
+    background-color: #8EB6DC;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 80vh;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.programas ul{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    flex-grow: 1;
+    gap: 15px;
+}
+
+.programas li{  
+    list-style: none;
+    padding: 0px;
+    margin: 10px 0px;
+}
+
+.programas img{
+    width: 40px;
+    border-radius: 10px;
+    display:block
+}
+
+.cards-galeria{
+   display: flex;
+    flex-wrap: wrap; /* Permite que bajen si no caben en móviles */
+    gap: 20px;       /* Espacio entre ellas */
+    justify-content: center;
+}
