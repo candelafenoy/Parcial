@@ -110,22 +110,21 @@ h2, h5{
 }
 
 .contenedor{
-    display:flex;
-    gap: 20px;
     margin: 10px;
-    align-items: start;
+    padding:0;
 }
 
 .sobreMi{
-    background-color: #375691;
-    flex-direction: column;
-    width: 50%;
-    height: 80vh;
-    padding: 10px;
-    border-radius: 10px;
     display: flex;
     flex-direction: column;
+    background-color: #375691;
+    width: 100%;
+    max-width: 900px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
     color:white;
+    justify-content: center;
 }
 
 .sobreMi h2, p, .programas h2{
@@ -133,27 +132,23 @@ h2, h5{
 
 }
 
-.sobreMi p{
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-}
-
 .programas{
-    background-color: #C7E6EE;
     display: flex;
     flex-direction: column;
-    width: 50%;
-    height: 80vh;
+    background-color: #C7E6EE;
+    width: 100%;
+    max-width: 900px;
     padding: 10px;
+    margin: 20px;
     border-radius: 10px;
+    justify-content: center;
 }
 
 .programas ul{
     display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: left;
-    flex-grow: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     gap: 15px;
 }
 
