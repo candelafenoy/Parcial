@@ -174,7 +174,7 @@ h2, h5{
 .card{
     background-color: #375691;
     color:white;
-    border-color: #375691;
+    border-color: #375791;
 }
 
 .cards-galeria{
@@ -184,12 +184,13 @@ h2, h5{
     align-items: stretch;
     flex-wrap: wrap;
     margin:20px;
+    height: 60%;
 }
 
 .card-body{
     display: flex;
     flex-direction: column;
-    height: 60%;
+
 }
 
 .card-body .btn{
