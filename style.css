@@ -193,7 +193,7 @@ h2, h5{
 .card-body{
     display: flex;
     flex-direction: column;
-    height: 80%;
+    height: 60%;
 }
 
 .card-body .btn{
