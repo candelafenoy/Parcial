@@ -56,6 +56,7 @@ body{
 .img{
     flex: 1;
     display: flex;
+    max-width: 300px;
 }
 
 h2, h5{
@@ -66,6 +67,22 @@ h2, h5{
   justify-content: left;
   margin: 20px 0px;
  
+}
+
+@media (max-width: 768px) {
+  .inicio {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .yo {
+    min-width: 100%;
+  }
+
+  .img img {
+    width: 100%;
+    max-width: 300px;
+  }
 }
 
 .carrusel{
