@@ -179,18 +179,22 @@ h2, h5{
 
 .cards-galeria{
    display: flex;
+   flex-wrap: wrap;
    gap: 15px;
     justify-content: center;
     align-items: stretch;
-    flex-wrap: wrap;
-    margin:20px;
-    height: 60%;
+    margin: 10px;
 }
 
 .card-body{
     display: flex;
     flex-direction: column;
+}
 
+.card-text{
+    margin: 10px 0;
+    padding: auto;
+    text-align: left;
 }
 
 .card-body .btn{
