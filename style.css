@@ -100,7 +100,7 @@ h2, h5{
 
 #carouselExampleAutoplaying {
   max-width: 800px;
-  min-width: 600px;
+  min-width: 200px;
   margin: 20px auto;
   padding: 20px;
 }
