@@ -174,7 +174,6 @@ h2, h5{
 .card{
     background-color: #375691;
     color:white;
-    border-color: #375791;
 }
 
 .cards-galeria{
@@ -193,7 +192,6 @@ h2, h5{
 
 .card-text{
     margin: 10px 0;
-    padding: auto;
     text-align: left;
 }
 
