@@ -32,7 +32,6 @@ body{
 
 .inicio{
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     background-color: #375691;
@@ -46,17 +45,23 @@ body{
 .yo{
     flex:2;
     color:white;
+    min-width: 250px;
 }
 
 .yo h2{
-    justify-content: start;
     margin: 0 20px;
 }
 
 .img{
     flex: 1;
     display: flex;
+    justify-content: center;
+}
+
+.img img{
+    width: 100%;
     max-width: 300px;
+    height: auto;
 }
 
 h2, h5{
