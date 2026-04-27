@@ -364,7 +364,21 @@ h2, h5{
     border-color:#C7E6EE;
 } 
 
+@media (max-width: 768px)
+{  /* cambiar esto */
+    .pag-3d{
+        max-width: 768px;
+        width: 100%;
+        margin: 20px; 
+        padding: 0 10px;
+        border-radius: 0;
+    }
 
+    .texto-video{
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+}
 
 
 
