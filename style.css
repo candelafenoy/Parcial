@@ -379,9 +379,9 @@ h2, h5{
         justify-content: center;
     }
 
-     .carousel-item{
+    /*  .carousel-item{
         height: 50vp;
-     }
+     } */
 }
 
 .btn-primary:hover{
