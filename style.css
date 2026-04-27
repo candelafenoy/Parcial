@@ -378,6 +378,12 @@ h2, h5{
         flex-wrap: wrap; 
         justify-content: center;
     }
+
+     .carousel-item{
+        max-width: 600px;
+        object-fit: cover;
+        height: fit-content;
+     }
 }
 
 
