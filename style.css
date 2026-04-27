@@ -380,9 +380,7 @@ h2, h5{
     }
 
      .carousel-item{
-        max-width: 750px;
-        object-fit: cover;
-        height: fit-content;
+        height: 60vp;
      }
 }
 
