@@ -59,13 +59,13 @@ body{
 } */
 .shadow-drop-center{ /* sumar esto */
     width: 300px;
-	-webkit-animation: shadow-drop-center 2s linear both;
-    animation: shadow-drop-center 2s linear both;
 }
 .shadow-drop-center img{
     width: 100%;
     max-width: 300px;
     height: auto;
+    -webkit-animation: shadow-drop-center 2s linear both;
+    animation: shadow-drop-center 2s linear both;
 }
 
 @-webkit-keyframes shadow-drop-center { /* sumar esto */
