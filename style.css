@@ -53,12 +53,14 @@ body{
 } */
 
 /* .img{
-    flex: 1;
-    display: flex;
+    
     justify-content: center;
 } */
 .shadow-drop-center{ /* sumar esto */
     width: 300px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
 }
 .shadow-drop-center img{
     width: 100%;
