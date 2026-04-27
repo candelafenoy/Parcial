@@ -336,6 +336,10 @@ h2, h5{
     text-justify: inter-word;
 }
 
+.texto-video a{
+    color:white
+}
+
 .texto-video li{
     list-style: none;
 }
