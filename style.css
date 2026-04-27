@@ -89,7 +89,7 @@ h2, h5{
   font-size: medium;
   font-style: normal;
   justify-content: left;
-  margin: 20px 0px;
+  margin: 20px 10px;
  
 }
 
@@ -184,6 +184,7 @@ h2, h5{
 }
 
 .text-focus-in{ /* agregar */
+    text-align: justify;  
 	-webkit-animation: text-focus-in 1s linear 1s both;
 	        animation: text-focus-in 1s linear 1s both;
 }
