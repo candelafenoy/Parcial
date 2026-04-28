@@ -9,6 +9,9 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
 }
+.nav-link{
+    color:#375691
+}
 
 .contenedor-pagina{
     display: flex;
@@ -53,7 +56,7 @@ body{
     margin: 0 20px;
 }
 
-.shadow-drop-center{ /* sumar esto */
+.shadow-drop-center{
     width: 300px;
     display: flex;
     flex: 1;
@@ -96,22 +99,6 @@ h2, h5{
   justify-content: left;
   margin: 20px 0px;
  
-}
-
-@media (max-width: 768px) {
-  .inicio {
-    flex-direction: column;
-    text-align: justify;
-  }
-
-  .yo {
-    min-width: 100%;
-  }
-
-  .shadow-drop-center img {
-    width: 100%;
-    max-width: 300px;
-  }
 }
 
 .carrusel{
@@ -167,18 +154,18 @@ h2, h5{
 }
 
 .contenedor{
-    margin: 10px;
+    margin: 0;
     padding:0;
+    display: flex;
+    flex-direction: column;
 }
 
 .sobreMi{
-    display: flex;
-    flex-direction: column;
     background-color: #375691;
     width: 100%;
     max-width: 900px;
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
     border-radius: 10px;
     color:white;
     justify-content: center;
@@ -188,13 +175,13 @@ h2, h5{
     margin: 20px;
 }
 
-.text-focus-in{ /* agregar */
+.text-focus-in{ 
     text-align: justify;  
 	-webkit-animation: text-focus-in 1s linear 1s both;
 	        animation: text-focus-in 1s linear 1s both;
 }
 
-@-webkit-keyframes text-focus-in { /* agregar */
+@-webkit-keyframes text-focus-in { 
   0% {
     -webkit-filter: blur(12px);
             filter: blur(12px);
@@ -220,13 +207,11 @@ h2, h5{
 }
 
 .programas{
-    display: flex;
-    flex-direction: column;
     background-color: #C7E6EE;
     width: 100%;
     max-width: 900px;
+    margin: 20px;
     padding: 10px;
-    margin: 10px;
     border-radius: 10px;
     justify-content: center;
 }
@@ -322,7 +307,7 @@ h2, h5{
     align-items: center;
 }
 
-#carouselExampleControlsNoTouching{ /* agregar */
+#carouselExampleControlsNoTouching{
     max-width: 700px;
     margin: 10px auto;
     padding: 10px;
@@ -365,11 +350,23 @@ h2, h5{
     border-color:#C7E6EE;
 } 
 
-@media (max-width: 768px)
-{  /* cambiar esto */
-    .pag-3d{
-        max-width: 768px;
+@media (max-width: 700px)
+{ 
+    .inicio {
+        flex-direction: column;
+        text-align: justify;
+      }
+    
+      .yo{
+        min-width: 100%;
+      }
+    
+      .shadow-drop-center img {
         width: 100%;
+        max-width: 300px;
+      }
+
+    .pag-3d{
         margin: 20px; 
         padding: 0 10px;
         border-radius: 0;
@@ -380,17 +377,32 @@ h2, h5{
         justify-content: center;
     }
 
-    /*  .carousel-item{
-        height: 50vp;
-     } */
-}
+     .sobreMi{
+        border-radius: 0;
+        margin: 10px 0;
+     }
+
+     .programas{
+        border-radius: 0;
+        margin: 10px 0;
+        padding: 0;
+     }
+        
+ }
+
 
 .btn-primary:hover{
     background-color: #EAEAEE;
     border-color: #EAEAEE;
 }
 
+@media (width < 800px){
 
+    .carrusel h2{
+        padding: 0 20px;
+    }
 
-
-
+    .carrusel{
+        padding: 0;
+    }
+}
