@@ -109,6 +109,10 @@ h2, h5{
     padding: 20px 30px;
 }
 
+.carrusel h2{
+    margin: 20px;
+}
+
 #carouselExampleAutoplaying {
   max-width: 800px;
   min-width: 200px;
