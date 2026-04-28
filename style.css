@@ -367,7 +367,7 @@ h2, h5{
 
 @media (max-width: 768px)
 {  /* cambiar esto */
-    .pag-3d{
+    .pag-3d .sobreMi .programas{
         max-width: 768px;
         width: 100%;
         margin: 20px; 
