@@ -181,12 +181,12 @@ h2, h5{
     margin: 10px;
     border-radius: 10px;
     color:white;
-    /* justify-content: center; */
+    justify-content: center;
 }
 
-.sobreMi h2, p, .programas h2{
+/* .sobreMi h2, p, .programas h2{
     margin: 20px;
-}
+} */
 
 .text-focus-in{ /* agregar */
     text-align: justify;  
